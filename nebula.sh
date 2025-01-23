@@ -34,6 +34,10 @@ while true; do
             echo "       INSTALLING NEBULA                      "
             echo "==============================================="
             bash <(curl -s https://installer.pablonetwork.web.id/nebula-installer.sh)
+            echo "==============================================="
+            echo "   INSTALLATION COMPLETED. EXITING INSTALLER  "
+            echo "==============================================="
+            exit 0
             ;;
         2|3|4)
             echo "==============================================="
