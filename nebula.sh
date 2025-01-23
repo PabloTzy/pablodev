@@ -22,12 +22,14 @@ while true; do
 
     case $choice in
         0)
+            clear
             echo "==============================================="
             echo "       INSTALLING BLUEPRINT                   "
             echo "==============================================="
             bash <(curl -s https://pablotzy.github.io/pablodev/blueprint-installer.sh)
             ;;
         1)
+            clear
             echo "==============================================="
             echo "       INSTALLING NEBULA                      "
             echo "==============================================="
@@ -39,6 +41,7 @@ while true; do
             echo "==============================================="
             ;;
         5)
+            clear
             echo "==============================================="
             echo "       EXITING FROM INSTALLER                 "
             echo "==============================================="
