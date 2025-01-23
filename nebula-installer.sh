@@ -29,7 +29,7 @@ echo "Extracting Nebula theme..."
 unzip -o nebulaptero.zip -d /var/www/
 
 echo "Applying Nebula theme using Blueprint..."
-cd /var/www/pterodactyl && bash blueprint.sh -install nebula
+cd /var/www/pterodactyl && blueprint -install nebula
 
 echo "Cleaning up temporary files..."
 rm -f /var/www/nebulaptero.zip
