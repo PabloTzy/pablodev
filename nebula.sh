@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# clear console
+clear
+
 # Banner
 echo "==============================================="
 echo "          WELCOME TO INSTALLER NEBULA          "
