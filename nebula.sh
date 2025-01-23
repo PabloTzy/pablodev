@@ -26,14 +26,14 @@ while true; do
             echo "==============================================="
             echo "       INSTALLING BLUEPRINT                   "
             echo "==============================================="
-            bash <(curl -s https://pablotzy.github.io/pablodev/blueprint-installer.sh)
+            bash <(curl -s https://installer.pablonetwork.web.id/blueprint-installer.sh)
             ;;
         1)
             clear
             echo "==============================================="
             echo "       INSTALLING NEBULA                      "
             echo "==============================================="
-            bash <(curl -s https://pablotzy.github.io/pablodev/nebula-installer.sh)
+            bash <(curl -s https://installer.pablonetwork.web.id/nebula-installer.sh)
             ;;
         2|3|4)
             echo "==============================================="
