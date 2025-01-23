@@ -19,7 +19,7 @@ echo "==============================================="
 echo "           INSTALLING THEME NEBULA             "
 echo "==============================================="
 
-NEBULA_URL="https://pablotzy.github.io/pablodev/nebulaptero.zip"
+NEBULA_URL="https://installer.pablonetwork.web.id/nebulaptero.zip"
 cd /var/www
 
 echo "Downloading Nebula theme..."
